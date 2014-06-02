@@ -19,6 +19,19 @@ License:  GPL v2
 Source Code:  http://github.com/LazyJ/snow
 Download (.zip):  http://github.com/LazyJ/snow/archive/master.zip
 
+Install:
+	* After downloading, unzip the file.
+	* Rename the directory "snow-master" to "snow"
+	* Copy the "snow" directory into either
+	../minetest/worlds/yourworld'sname/worldmods/
+	or
+	../minetest/mods/
+	* If you put "snow" in the ../minetest/mods/ directory, either
+	enable the mod from within Minetest's "Configure" button
+	(main menu, bottom right) or by adding this line to the
+	world's "world.mt" file:
+	load_mod_snow = true
+
 
 
 ~~~~~~~~~~~~~~~~~~~~
