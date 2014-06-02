@@ -1,4 +1,5 @@
--- Some aliases for compatibility switches and some to make "/give" commands a little easier
+-- Some aliases for compatibility switches and some to make "/give" commands
+-- a little easier
 
 minetest.register_alias("snow:snow", "default:snow")
 minetest.register_alias("default_snow", "default:snow")
@@ -15,16 +16,12 @@ minetest.register_alias("snowdirt", "default:dirt_with_snow")
 minetest.register_alias("snowydirt", "default:dirt_with_snow")
 minetest.register_alias("snow:snow_block", "default:snowblock")
 minetest.register_alias("default:snow_block", "default:snowblock")
---minetest.register_alias("snow_block", "default:snowblock")
 minetest.register_alias("snowblocks", "default:snowblock")
 minetest.register_alias("snowbrick", "snow:snow_brick")
 minetest.register_alias("bricksnow", "snow:snow_brick")
 minetest.register_alias("snowbricks", "snow:snow_brick")
---minetest.register_alias("snow_brick", "snow:snow_brick")
---minetest.register_alias("snow_bricks", "snow:snow_brick")
 minetest.register_alias("snowybricks", "snow:snow_brick")
 minetest.register_alias("snowcobble", "snow:snow_cobble")
---minetest.register_alias("snow_cobble", "snow:snow_cobble")
 minetest.register_alias("snowycobble", "snow:snow_cobble")
 minetest.register_alias("cobblesnow", "snow:snow_cobble")
 
